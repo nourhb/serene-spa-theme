@@ -1,0 +1,34 @@
+<!-- wp:template-part {"slug":"header","theme":"serene"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:4rem;padding-bottom:4rem">
+	<!-- wp:query-title {"type":"archive","textAlign":"center","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--display)"}}} /-->
+	<!-- wp:term-description {"textAlign":"center"} /-->
+
+	<!-- wp:query {"queryId":2,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"default"}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":3},"style":{"spacing":{"blockGap":"2rem"}}} -->
+			<!-- wp:group {"className":"serene-card is-style-serene-card","backgroundColor":"cream","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group serene-card is-style-serene-card has-cream-background-color has-background">
+				<!-- wp:post-featured-image {"isLink":true,"className":"serene-zoom"} /-->
+				<!-- wp:group {"style":{"spacing":{"padding":{"right":"1.5rem","left":"1.5rem","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="padding-right:1.5rem;padding-left:1.5rem;padding-bottom:1.5rem">
+					<!-- wp:post-title {"isLink":true,"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--display)","fontSize":"1.4rem"}}} /-->
+					<!-- wp:post-excerpt {"moreText":"Read more"} /-->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:group -->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"serene"} /-->
