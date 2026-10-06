@@ -56,6 +56,16 @@ No plugins required. Google Fonts (Cormorant Garamond + Jost) load automatically
 ### 1.0.0
 - Initial release: 8 templates, 2 template parts, 10 block patterns, Twilight style variation, theme.js interactions, full a11y pass.
 
+## Design Previews
+![serene-main](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-main.png)
+![serene-treatments](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-treatments.png)
+![serene-mobile](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-mobile.png)
+![serene-twilight](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-twilight.png)
+![serene-packages](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-packages.png)
+![serene-therapists](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-therapists.png)
+![serene-gallery](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-gallery.png)
+![serene-booking](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/serene-booking-scaled.png)
+
 ## License
 
 GNU General Public License v2 or later — see `LICENSE`.
